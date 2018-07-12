@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Strangergames blog </title>
+	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="w3.css">
+  <style>
+    /* normalize.css 2011-06-23T00:50 UTC //github.com/jonathantneal/normalize.css */
+    article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}html{cursor:default;font-size:100%;overflow-y:scroll;-webkit-tap-highlight-color:transparent;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body,form,input,button,select,textarea{font-size:100%;margin:0}a,a:active,a:hover{outline:none}a:focus{outline:thin dotted}abbr{_border-bottom:expression(this.title ? '1px dotted':'none')}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}mark{background:#FF0;color:#000}pre,code,kbd,samp{font-family:monospace,monospace;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small,sub,sup{font-size:75%}sub,sup{line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}nav ul{list-style:none}audio[controls],canvas,video{display:inline-block;*display:inline}audio{display:none;_display:expression(this.controls ? 'inline':'none');*zoom:1}audio[controls]{display:inline-block}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){ overflow:hidden}legend{*margin-left:-7px}button,input,select,textarea{vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal;_overflow:expression(this.type == 'button|reset|submit' ? 'visible':'')}button,input[type="button"],input[type="reset"],input[type="submit"]{overflow:visible;-webkit-appearance:button}input[type="checkbox"],input[type="radio"]{box-sizing:border-box}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration{ -webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+    body {
+      color: #444444;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+    h1 {
+      font-size: 48px;
+	  
+    }
+    h2 {
+      font-size: 32px;
+    }
+    h1, h2, h3 {
+      font-family: 'Oswald', sans-serif;
+	  color: #884ea0;
+	  
+    }
+    p {
+      line-height: 1.4;
+      font-size: 15px;
+    }
+    img.logo {
+      margin: 0 auto;
+      display: block;
+	  
+    }
+    img.profile {
+      border: 1px solid grey;
+      width: 350px;
+      height: 200px;
+      padding: 5px;
+      margin-right: 10px;
+      float: left;
+      margin-right: 20px;
+    }
+    img.favourite {
+      border: 1px solid #884ea0;
+      border-radius: 50%;
+      width: 200px;
+      padding: 5px;
+      margin: 10px;
+	  height: 150px;
+    }
+    section.banner {
+      padding-top: 110px;
+      padding-bottom: 100px;
+      background: url('images/background.jpg') center center;
+      background-attachment: fixed;
+      color: #ffffff;
+      text-align: center;
+    }
+    section.banner p {
+      font-size: 22px;
+    }
+    section.banner h1 {
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    section.about {
+      background: url('images/tile1.png');
+      overflow: hidden;
+	 
+    }
+    section.about h2 {
+      text-align: center;
+	  color: #884ea0;
+    }
+    section.favourites {
+      text-align: center;
+    }
+    section.contact {
+      text-align: center;
+      background: url('images/tile2.png');
+    }
+    section.contact img {
+      margin: 20px;
+	  width: 200px;
+    }
+    section.box {
+      padding: 50px 100px;
+	  
+    }
+    section.box h2, section.box h3 {
+      color: #884ea0;
+    }
+    .menu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      border-bottom: 1px solid #434A5C;
+      background: #ffffff;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+	  
+	   position:absolute; z-index: -1000
+    }
+    .menu li {
+      display: inline-block;
+      padding: 20px 35px;
+    }
+    .menu a {
+      text-decoration: none;
+      color: #333333;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: 'Oswald', sans-serif;
+    }
+	img.Fotos {
+      border: 1px solid #884ea0;
+      border-radius: 50%;
+      width: 200px;
+      padding: 5px;
+      margin: 10px;
+	  height: 150px;
+	  list-style
+	  
+    }
+
+	.Titulos {
+	  
+      text-align: center;
+	  color: #884ea0;
+	  }
+	  .presentacion {
+	  color: #884ea0;
+	  }
+	 .ListaFotos {
+	 list-style: none;
+	 text-align: center;
+	}
+	.ListaFotos li{
+	display: inline-block;
+	}
+
+  </style>
+  
+</head>
+
+
+
+<body>
+<div>
+  <ul class="menu">
+    <li><a href="#about">Strangergames</a></li>
+    <li><a href="#favourites">Proyectos</a></li>
+    <li><a href="#contact">Contacto</a></li>
+  </ul>
+  
+
+	<div class="w3-content w3-display-container">
+	  <img class="mySlides" src="images\Videojuegos.jpg" style="width:100%">
+	  <img class="mySlides" src="images\noseria.jpg" style="width:100%">
+	  <img class="mySlides" src="images\Movil.jpg" style="width:100%">
+	  <img class="mySlides" src="images\Consola.jpg" style="width:100%">
+	  <img class="mySlides" src="images\seria.jpg" style="width:100%">
+
+	  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+	  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+	</div>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+ 
+   
+  </section>
+  <section id="about" class="about box">
+    <h2>Strangergames</h2>
+    <img class="profile" src="images\Captura.png">
+    <h3>Presentaci&oacute;n de la compa&ntilde;&iacute;a</h3>
+	<p>Somos una peque&ntilde;a e innovadora compa&ntilde;&iacute;a formada por cinco miembros que est&aacute; empezando a crear videojuegos. Comenzamos hace una semana, aunque ya llev&aacute;bamos pens&aacute;ndolo desde hace tiempo. La idea surgi&oacute; gracias a un campus dedicado a chicas interesadas en la tecnolog&iacute;a que nos animaron a encabezar este proyecto. Nosotras decidimos trabajar juntas para llevar esto a cabo, ya que juntas podemos dividir las tareas y abarcar m&aacute;s &aacute;mbitos, no solo el de los videojuegos. Nuestro objetivo es animar a m&aacute;s personas a probar, porque lo m&aacute;s importante es aprender cosas nuevas que pueden servirte en alg&uacute;n momento e incluso pueden llegar a gustarte y querer dedicarte a ello.</p>
+    <h3 class="presentacion">Presentaci&oacute;n de las componenetes</h3>
+	<p>Somo un grupo de 5 chicas de M&aacute;laga. Estrella, tiene 14 a&ntilde;os, ha terminado 2&ordm;ESO. Lo que m&aacute;s le gusta es bailar. Ver&oacute;nica,14 a&ntilde;os acaba de terminar 3&ordm;ESO. Una de las cosas que m&aacute;s le gusta es el k&aacute;rate. Sof&iacute;a, de 15 a&ntilde;os, va a pasar a 4&ordm;ESO, y entre sus hobbies est&aacute; bailar y jugar al tenis, es una gran fan de Pablo Albor&aacute;n. Ana, de 14 a&ntilde;os, ha acabado 3&ordm;ESO, y lo que m&aacute;s le gusta es bailar. Y Luc&iacute;a, la mayor del grupo, tiene 15 a&ntilde;os y va a pasar a 1&ordm; de Bachillerato. Uno de sus hobbies es tocar el piano.
+    <h3 class="Titulos">Campus</h3>
+	<p> Gracias al Campus Tecnol&oacute;gico para chicas nos unimos y creamos esta empresa. Hemos aprendido a hacer esto gracias a ellas, ya que las monitoras nos han ayudado mucho y han estado muy pendiente de nosotras. La finalidad del campus era hacer que m&aacute;s chicas se interesaran en la tecnolog&iacute;a, y creemos que en nuestro caso, lo han conseguido. Agradecemos a todas las monitoras, Susana, Marta, Paloma, Cristina, Denisa, Victoria, Sonia y Mari &Aacute;ngeles, por dedicarnos su tiempo y hacer que nuestras ma&ntilde;anas sean productivas y nos sirvan para el futuro.
+	 <ul class= "ListaFotos">
+	<h3 class="Titulos">Componentes</h3>
+	<li><img class= "Fotos" src="images\sofia2.jpg"><p>Sof&iacute;a Luque Ortega</p></li>
+	<li><img class= "Fotos" src="images\estrella.jpg"><p>Estrella Dom&iacute;nguez S&aacute;nchez</p></li>
+	<li><img class= "Fotos" src="images\lucia.jpg"><p>Luc&iacute;a Guti&eacute;rrez Molina</p></li>
+	</ul>
+	<ul class= "ListaFotos">
+	<li><img class= "Fotos" src="images\Ana2.jpg"><p>Ana Rubio Torres</p></li>
+	<li><img class= "Fotos" src="images\veronica.jpg"><p>Ver&oacute;nica Gonz&aacute;lez Pons</p></li>
+	</ul>
+	</section>
+  <section id="favourites" class="favourites box">
+    <h2>Proyecto actual</h2>
+  <p>El juego consiste en preguntas aleatorias de cultura general con respuesta de s&iacute; y no. El objetivo es acertar el m&aacute;ximo posible de preguntas, si la respuesta es err&oacute;nea se descuentan dos puntos y si es correcta se suman cuatro. La finalidad del juego es hacer que la gente muestre m&aacute;s inter&eacute;s por la cultura. Es un gran juego para matar el aburrimiento, y aprender cosas nuevas. Como nuestro propio nombre indica, nuestras preguntas son extra&ntilde;as y rebuscadas para que no resulten f&aacute;cil de adivinar. Haz click en la imagen, si quer&eacute;is descargar el juego.</p>
+    <img class="favourite" src="images\Logo.png">
+  </section>
+  <section id="contact" class="contact box">
+    <h2>Cont&aacute;ctanos</h2>
+    <a href="https://www.instagram.com/strangergames18/"><img src="images\Instagram.jpg"></a>
+    <a href="https://twitter.com/18Strangergames"><img src="images\Twitter.png"></a>
+    <a href="https://www.facebook.com/strangergames.lasev.1"><img src="images\Facebook.png"></a>
+	<ul class="ListaFotos">
+	<img src= "images\Gmail.jpg"></img><p>StrangerGames.18@gmail.com</p>
+	</ul>
+  </section>
+</body>
+</html>
